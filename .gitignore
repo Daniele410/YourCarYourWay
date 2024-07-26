@@ -1,77 +1,118 @@
-```plaintext
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/YourCarYourWayBE/dist
+/YourCarYourWayBE/tmp
+/YourCarYourWayBE/out-tsc
+/YourCarYourWayBE/bazel-out
+/YourCarYourWayFE/dist
+/YourCarYourWayFE/tmp
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/YourCarYourWayFE/node_modules
+YourCarYourWayFE/npm-debug.log
+YourCarYourWayFE/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/YourCarYourWayBE/.idea/
+/YourCarYourWayBE/.project
+/YourCarYourWayBE/.classpath
+/YourCarYourWayBE/.c9/
+/YourCarYourWayBE/*.launch
+/YourCarYourWayBE/.settings/
+/YourCarYourWayBE/*.sublime-workspace
+
+/YourCarYourWayFE/.idea/
+/YourCarYourWayFE/*.iws
+/YourCarYourWayFE/*.iml
+/YourCarYourWayFE/*.ipr
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/YourCarYourWayBE/.vscode/*
+!/YourCarYourWayBE/.vscode/settings.json
+!/YourCarYourWayBE/.vscode/tasks.json
+!/YourCarYourWayBE/.vscode/launch.json
+!/YourCarYourWayBE/.vscode/extensions.json
+/YourCarYourWayBE/.history/*
+
+/YourCarYourWayFE/.vscode/*
+!/YourCarYourWayFE/.vscode/settings.json
+!/YourCarYourWayFE/.vscode/tasks.json
+!/YourCarYourWayFE/.vscode/launch.json
+!/YourCarYourWayFE/.vscode/extensions.json
+/YourCarYourWayFE/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/YourCarYourWayBE/.angular/cache
+/YourCarYourWayBE/.sass-cache/
+/YourCarYourWayBE/connect.lock
+/YourCarYourWayBE/coverage
+/YourCarYourWayBE/libpeerconnection.log
+/YourCarYourWayBE/testem.log
+/YourCarYourWayBE/typings
+
+/YourCarYourWayFE/.angular/cache
+/YourCarYourWayFE/.sass-cache/
+/YourCarYourWayFE/connect.lock
+/YourCarYourWayFE/coverage
+/YourCarYourWayFE/libpeerconnection.log
+/YourCarYourWayFE/testem.log
+/YourCarYourWayFE/typings
 
 # System files
-.DS_Store
-Thumbs.db
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+/YourCarYourWayBE/.DS_Store
+/YourCarYourWayBE/Thumbs.db
+/YourCarYourWayBE/HELP.md
+/YourCarYourWayBE/target/
+!/YourCarYourWayBE/.mvn/wrapper/maven-wrapper.jar
+!/YourCarYourWayBE/**/*.java
+
+/YourCarYourWayFE/.DS_Store
+/YourCarYourWayFE/Thumbs.db
+/YourCarYourWayFE/HELP.md
+/YourCarYourWayFE/target/
+!/YourCarYourWayFE/.mvn/wrapper/maven-wrapper.jar
+!/YourCarYourWayFE/**/*.java
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+/YourCarYourWayBE.apt_generated
+/YourCarYourWayBE.classpath
+/YourCarYourWayBE.factorypath
+/YourCarYourWayBE.project
+/YourCarYourWayBE.settings
+/YourCarYourWayBE.springBeans
+/YourCarYourWayBE.sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+/YourCarYourWayBE/.idea
+/YourCarYourWayBE*.iws
+/YourCarYourWayBE*.iml
+/YourCarYourWayBE*.ipr
+
+/YourCarYourWayFE/.idea
+/YourCarYourWayFE*.iws
+/YourCarYourWayFE*.iml
+/YourCarYourWayFE*.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/YourCarYourWayBE/nbproject/private/
+/YourCarYourWayBE/nbbuild/
+/YourCarYourWayBE/dist/
+/YourCarYourWayBE/nbdist/
+/YourCarYourWayBE/.nb-gradle/
+YourCarYourWayBE/build/
+!/YourCarYourWayBE/src/main/**/build/
+!/YourCarYourWayBE/src/test/**/build/
+
+/YourCarYourWayFE/nbproject/private/
+/YourCarYourWayFE/nbbuild/
+/YourCarYourWayFE/dist/
+/YourCarYourWayFE/nbdist/
+/YourCarYourWayFE/.nb-gradle/
+YourCarYourWayFE/build/
+!/YourCarYourWayFE/src/main/**/build/
+!/YourCarYourWayFE/src/test/**/build/
 
 ### VS Code ###
-.vscode/
-```
+/YourCarYourWayBE/.vscode/
+/YourCarYourWayFE/.vscode/
