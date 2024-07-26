@@ -1,0 +1,6 @@
+[submodule "YourCarYourWayBE"]
+	path = YourCarYourWayBE
+	url = https://github.com/Daniele410/YourCarYourWayBE
+[submodule "YourCarYourWayFE"]
+	path = YourCarYourWayFE
+	url = https://github.com/Daniele410/YourCarYourWayFE
