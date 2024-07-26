@@ -93,26 +93,3 @@ YourCarYourWayFE/yarn-error.log
 /YourCarYourWayFE*.iws
 /YourCarYourWayFE*.iml
 /YourCarYourWayFE*.ipr
-
-### NetBeans ###
-/YourCarYourWayBE/nbproject/private/
-/YourCarYourWayBE/nbbuild/
-/YourCarYourWayBE/dist/
-/YourCarYourWayBE/nbdist/
-/YourCarYourWayBE/.nb-gradle/
-YourCarYourWayBE/build/
-!/YourCarYourWayBE/src/main/**/build/
-!/YourCarYourWayBE/src/test/**/build/
-
-/YourCarYourWayFE/nbproject/private/
-/YourCarYourWayFE/nbbuild/
-/YourCarYourWayFE/dist/
-/YourCarYourWayFE/nbdist/
-/YourCarYourWayFE/.nb-gradle/
-YourCarYourWayFE/build/
-!/YourCarYourWayFE/src/main/**/build/
-!/YourCarYourWayFE/src/test/**/build/
-
-### VS Code ###
-/YourCarYourWayBE/.vscode/
-/YourCarYourWayFE/.vscode/
